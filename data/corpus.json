@@ -1,0 +1,3066 @@
+{
+  "meta": {
+    "generated": "2026-11-21 12:22:59",
+    "source": "Windows Event Log / Multi-Provider (SCM + Kernel-Power + Win32k + DCOM + AppError)",
+    "machine": "WORKSTATION-01",
+    "days": 60,
+    "raw_count": 5613,
+    "distinct": 175,
+    "sanitized": true
+  },
+  "events": [
+    {
+      "id": 7040,
+      "main": "IsolationSession 服务的启动类型从 自动启动 更改为 按需启动。",
+      "reason": "",
+      "hint": "",
+      "count": 2172,
+      "firstTime": "09/17/2026 23:55:21",
+      "lastTime": "2026-11-21T11:54:49.0167780+08:00",
+      "params": {
+        "param1": "IsolationSession",
+        "param3": "按需启动",
+        "param2": "自动启动",
+        "param4": "IsolationSession"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "IsolationSession 服务的启动类型从 按需启动 更改为 自动启动。",
+      "reason": "",
+      "hint": "",
+      "count": 2171,
+      "firstTime": "09/17/2026 23:54:50",
+      "lastTime": "2026-11-21T11:54:18.9130361+08:00",
+      "params": {
+        "param1": "IsolationSession",
+        "param3": "自动启动",
+        "param2": "按需启动",
+        "param4": "IsolationSession"
+      }
+    },
+    {
+      "id": 506,
+      "main": "系统正在进入新型待机状态",
+      "reason": "",
+      "hint": "",
+      "count": 276,
+      "firstTime": "2026-10-16T19:08:11.9926803+08:00",
+      "lastTime": "2026-11-21T08:56:20.5847445+08:00",
+      "params": {
+        "ScenarioInstanceIdV2": "122",
+        "BatteryFullChargeCapacityOnEnter": "83130",
+        "ExternalMonitorConnectedState": "false",
+        "BatteryRemainingCapacityOnEnter": "64920",
+        "LidOpenState": "true",
+        "ScenarioInstanceId": "122",
+        "Reason": "20",
+        "provider": "Microsoft-Windows-Kernel-Power",
+        "BootId": "251"
+      }
+    },
+    {
+      "id": 507,
+      "main": "系统正在退出新型待机状态",
+      "reason": "",
+      "hint": "",
+      "count": 276,
+      "firstTime": "2026-10-16T19:07:40.9607931+08:00",
+      "lastTime": "2026-11-21T08:56:21.7591443+08:00",
+      "params": {
+        "DripsResidencyInUs": "0",
+        "Reason": "25",
+        "SleepSwDripsResidencyInUs": "0",
+        "ResiliencyHwDripsTimeInUs": "0",
+        "MonitorPowerOnTime": "661764",
+        "ModernSleepEnabledActionsBitmask": "7",
+        "BatteryFullChargeCapacityOnExit": "83130",
+        "HwDripsResidencyInUs": "0",
+        "AoAcCompliantNic": "true",
+        "SleepEnergyCapacityAtEnd": "0",
+        "PowerStateAc": "true",
+        "ExternalMonitorConnectedState": "false",
+        "ScreenOffSwDripsResidencyInUs": "0",
+        "BootId": "251",
+        "DripsTransitions": "0",
+        "SleepFullEnergyCapacityAtStart": "0",
+        "ScenarioInstanceId": "124",
+        "ResiliencyDripsTimeInUs": "0",
+        "EnergyDrain": "0",
+        "SleepHwDripsResidencyInUs": "0",
+        "SleepDurationInUs": "0",
+        "BatteryRemainingCapacityOnExit": "64920",
+        "AudioPlaying": "false",
+        "NonDripsTimeActivatedInUs": "0",
+        "NonResiliencyTimeInUs": "1176685",
+        "ScreenOffEnergyCapacityAtStart": "64920",
+        "ScenarioInstanceIdV2": "122",
+        "DwmSyncFlushTime": "0",
+        "PowerButtonSuppressionActionCount": "0",
+        "ScreenOffFullEnergyCapacityAtEnd": "83130",
+        "PowerSchemeInfo": "4",
+        "GdiOnTime": "0",
+        "FullChargeCapacityRatio": "97",
+        "NonAttributedCpuInUs": "0",
+        "IsCsSessionInProgressOnExit": "false",
+        "FirstDripsEntryInUs": "0",
+        "ExitLatencyInUs": "664998",
+        "LidOpenState": "true",
+        "ScreenOffHwDripsResidencyInUs": "0",
+        "ScreenOffDurationInUs": "1174687",
+        "InputSuppressionActionCount": "0",
+        "ActiveResidencyInUs": "1176685",
+        "NonActivatedCpuInUs": "0",
+        "SleepEntered": "false",
+        "SleepFullEnergyCapacityAtEnd": "0",
+        "ScreenOffEnergyCapacityAtEnd": "64920",
+        "ScreenOffFullEnergyCapacityAtStart": "83130",
+        "provider": "Microsoft-Windows-Kernel-Power",
+        "SleepEnergyCapacityAtStart": "0",
+        "DurationInUs": "1176685",
+        "DisconnectedStandby": "false",
+        "AudioPlaybackInUs": "0",
+        "ModernSleepAppliedActionsBitmask": "0"
+      }
+    },
+    {
+      "id": 36884,
+      "main": "从远程服务器上收到的证书不包含一个预期的名称。因此我们不能确定是否连接到了正确的服务器。预期的服务器名称为 sigma-a56xxfctlog-a56xxfct.proxima.nie.netease.com。TLS 连接请求失败。附带的数据包含服务器证书。",
+      "reason": "",
+      "hint": "",
+      "count": 264,
+      "firstTime": "2026-10-21T07:31:47.1164185+08:00",
+      "lastTime": "2026-11-19T21:12:08.6737146+08:00",
+      "params": {
+        "provider": "Schannel"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Current impersonated user SID: S-1-5-21-0000000000-0000000000-0000000000-1001",
+      "reason": "",
+      "hint": "",
+      "count": 235,
+      "firstTime": "2026-10-04T18:47:05.3093587+08:00",
+      "lastTime": "2026-11-13T17:55:19.6852313+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 230,
+      "firstTime": "2026-10-16T21:42:25.8030676+08:00",
+      "lastTime": "2026-11-21T09:05:17.4821716+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{15C20B67-12E7-4BB6-92BB-7AFF07997402}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "不可用"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {AB8902B4-09CA-4BB6-B78D-A8F59079A8D5} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 167,
+      "firstTime": "2026-10-18T10:06:14.0571326+08:00",
+      "lastTime": "2026-11-09T15:59:21.5992175+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 NT AUTHORITY\\LOCAL SERVICE SID (S-1-5-19)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 160,
+      "firstTime": "2026-10-16T21:40:18.7844388+08:00",
+      "lastTime": "2026-11-21T08:56:24.5479875+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "NT AUTHORITY",
+        "param7": "LOCAL SERVICE",
+        "param4": "{6B3B8D23-FA8D-40B9-8DBD-B950333E2C52}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{4839DDB7-58C2-48F5-8283-E1D1807D0D7D}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-19",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "不可用"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Background Intelligent Transfer Service 服务的启动类型从 自动启动 更改为 按需启动。",
+      "reason": "",
+      "hint": "",
+      "count": 97,
+      "firstTime": "09/22/2026 22:01:33",
+      "lastTime": "2026-11-11T13:23:26.8467016+08:00",
+      "params": {
+        "param1": "Background Intelligent Transfer Service",
+        "param3": "按需启动",
+        "param2": "自动启动",
+        "param4": "BITS"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Background Intelligent Transfer Service 服务的启动类型从 按需启动 更改为 自动启动。",
+      "reason": "",
+      "hint": "",
+      "count": 97,
+      "firstTime": "09/22/2026 22:09:26",
+      "lastTime": "2026-11-11T16:09:54.5247100+08:00",
+      "params": {
+        "param1": "Background Intelligent Transfer Service",
+        "param3": "自动启动",
+        "param2": "按需启动",
+        "param4": "BITS"
+      }
+    },
+    {
+      "id": 1008,
+      "main": "DLL“<PATH_REDACTED> Open 过程失败，错误代码为 系统找不到指定的文件。。此服务的性能数据将不可用。",
+      "reason": "",
+      "hint": "",
+      "count": 96,
+      "firstTime": "2026-10-03T15:20:05.4810133+08:00",
+      "lastTime": "2026-11-21T12:00:16.0704775+08:00",
+      "params": {
+        "Service": "MSDTC",
+        "Win32Error": "2147942402",
+        "provider": "Microsoft-Windows-Perflib",
+        "Library": "<PATH_REDACTED>"
+      }
+    },
+    {
+      "id": 1008,
+      "main": "DLL“<PATH_REDACTED> Open 过程失败，错误代码为 设备未就绪。。此服务的性能数据将不可用。",
+      "reason": "",
+      "hint": "",
+      "count": 96,
+      "firstTime": "2026-10-03T15:20:05.7884464+08:00",
+      "lastTime": "2026-11-21T12:00:16.6948044+08:00",
+      "params": {
+        "Service": "WmiApRpl",
+        "Win32Error": "21",
+        "provider": "Microsoft-Windows-Perflib",
+        "Library": "<PATH_REDACTED>"
+      }
+    },
+    {
+      "id": 7011,
+      "main": "等待来自 WSLService 服务的事务处理响应超时(30000 毫秒)。",
+      "reason": "",
+      "hint": "",
+      "count": 85,
+      "firstTime": "09/18/2026 12:29:44",
+      "lastTime": "2026-11-21T08:56:45.4444967+08:00",
+      "params": {
+        "param1": "30000",
+        "param2": "WSLService"
+      }
+    },
+    {
+      "id": 36884,
+      "main": "从远程服务器上收到的证书不包含一个预期的名称。因此我们不能确定是否连接到了正确的服务器。预期的服务器名称为 client.wns.windows.com。TLS 连接请求失败。附带的数据包含服务器证书。",
+      "reason": "",
+      "hint": "",
+      "count": 83,
+      "firstTime": "2026-10-20T10:04:17.4373809+08:00",
+      "lastTime": "2026-11-17T07:32:27.5499662+08:00",
+      "params": {
+        "provider": "Schannel"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "计算机-默认 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 72,
+      "firstTime": "2026-11-04T22:04:13.8965180+08:00",
+      "lastTime": "2026-11-04T22:04:18.5738925+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{C2F03A33-21F5-47FA-B4BB-156362A2F239}",
+        "param1": "计算机-默认",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{316CDED5-E4AE-4B15-9113-7055D84DCC97}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "计算机-默认 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 48,
+      "firstTime": "2026-11-04T21:38:36.7187400+08:00",
+      "lastTime": "2026-11-04T21:42:37.7499445+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{C2F03A33-21F5-47FA-B4BB-156362A2F239}",
+        "param1": "计算机-默认",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{316CDED5-E4AE-4B15-9113-7055D84DCC97}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 263,
+      "main": "指针设备没有有关其连接的监视器的信息。",
+      "reason": "",
+      "hint": "",
+      "count": 47,
+      "firstTime": "2026-10-16T21:42:15.0713726+08:00",
+      "lastTime": "2026-11-19T21:11:38.1039266+08:00",
+      "params": {
+        "provider": "Win32k"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： atieclxx.exe，版本： 32.0.32015.7029，时间戳： 0x6ad1496d",
+      "reason": "出错模块名称： atieclxx.exe， 版本： 32.0.32015.7029，时间戳： 0x6ad1496d",
+      "hint": "异常代码： 0xc0000005",
+      "count": 46,
+      "firstTime": "2026-10-22T01:09:39.2047210+08:00",
+      "lastTime": "2026-11-20T13:46:02.8613939+08:00",
+      "params": {
+        "AppVersion": "32.0.32015.7029",
+        "ProcessId": "0x8198",
+        "AppPath": "<PATH_REDACTED>",
+        "PackageFullName": "",
+        "PackageRelativeAppId": "",
+        "ModuleTimeStamp": "6ad1496d",
+        "IntegratorReportId": "ba1cb9f3-bec8-49bc-98fc-c4b346cf2456",
+        "ExceptionCode": "c0000005",
+        "FaultingOffset": "000000000002ab20",
+        "ProcessCreationTime": "0x1dd78b145878476",
+        "ModulePath": "<PATH_REDACTED>",
+        "AppName": "atieclxx.exe",
+        "AppTimeStamp": "6ad1496d",
+        "provider": "Application Error",
+        "ModuleVersion": "32.0.32015.7029",
+        "ModuleName": "atieclxx.exe"
+      }
+    },
+    {
+      "id": 10001,
+      "main": "无法作为 不可用/不可用 启动 DCOM 服务器: {C53A4F16-787E-42A4-B304-29EFFB4BF597}。错误:",
+      "reason": "“2147958031”",
+      "hint": "在启动该命令时发生:",
+      "count": 33,
+      "firstTime": "2026-10-26T13:37:24.5890099+08:00",
+      "lastTime": "2026-10-26T13:39:27.9156908+08:00",
+      "params": {
+        "param2": "2147958031",
+        "param4": "不可用",
+        "param1": "\"<PATH_REDACTED> Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.29.380.0_x64__8wekyb3d8bbwe\\WindowsPackageManagerServer.exe\" -Embedding",
+        "param3": "{C53A4F16-787E-42A4-B304-29EFFB4BF597}",
+        "param5": "不可用",
+        "provider": "Microsoft-Windows-DistributedCOM"
+      }
+    },
+    {
+      "id": 700,
+      "main": "电源管理器请求阻止所有输入(INPUT_SUPPRESS_REQUEST=1)",
+      "reason": "",
+      "hint": "",
+      "count": 27,
+      "firstTime": "2026-10-18T16:52:09.5498875+08:00",
+      "lastTime": "2026-11-17T16:03:27.1511317+08:00",
+      "params": {
+        "provider": "Win32k"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Windows Modules Installer 服务的启动类型从 自动启动 更改为 按需启动。",
+      "reason": "",
+      "hint": "",
+      "count": 26,
+      "firstTime": "09/20/2026 23:46:56",
+      "lastTime": "2026-11-15T13:37:07.3575858+08:00",
+      "params": {
+        "param1": "Windows Modules Installer",
+        "param3": "按需启动",
+        "param2": "自动启动",
+        "param4": "TrustedInstaller"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Windows Modules Installer 服务的启动类型从 按需启动 更改为 自动启动。",
+      "reason": "",
+      "hint": "",
+      "count": 26,
+      "firstTime": "09/20/2026 23:46:31",
+      "lastTime": "2026-11-15T13:25:14.2523625+08:00",
+      "params": {
+        "param1": "Windows Modules Installer",
+        "param3": "自动启动",
+        "param2": "按需启动",
+        "param4": "TrustedInstaller"
+      }
+    },
+    {
+      "id": 701,
+      "main": "电源管理器未请求阻止所有输入(INPUT_SUPPRESS_REQUEST=0)",
+      "reason": "",
+      "hint": "",
+      "count": 22,
+      "firstTime": "2026-10-18T19:48:08.9616364+08:00",
+      "lastTime": "2026-11-17T16:11:48.9619658+08:00",
+      "params": {
+        "provider": "Win32k"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Printer state: 3, printer state reasons: \"printer-state-reasons\":",
+      "reason": "\"none (0x44)\"",
+      "hint": "",
+      "count": 19,
+      "firstTime": "2026-10-17T22:58:41.6576879+08:00",
+      "lastTime": "2026-11-07T23:08:29.2446540+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 7000,
+      "main": "由于下列错误，KPICService_Web 服务启动失败:",
+      "reason": "系统找不到指定的文件。",
+      "hint": "",
+      "count": 19,
+      "firstTime": "09/18/2026 10:58:53",
+      "lastTime": "2026-11-13T17:53:19.3198744+08:00",
+      "params": {
+        "param1": "KPICService_Web",
+        "param2": "%%2"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Printer state: 4, printer state reasons: \"printer-state-reasons\":",
+      "reason": "\"none (0x44)\"",
+      "hint": "",
+      "count": 16,
+      "firstTime": "2026-10-17T22:58:12.0303132+08:00",
+      "lastTime": "2026-11-07T23:14:30.2448962+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {9BA05972-F6A8-11CF-A442-00A0C90A8F39} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 16,
+      "firstTime": "2026-11-09T15:59:22.5236086+08:00",
+      "lastTime": "2026-11-20T23:52:53.1696688+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{9BA05972-F6A8-11CF-A442-00A0C90A8F39}"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 NT AUTHORITY\\SYSTEM SID (S-1-5-18)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 16,
+      "firstTime": "2026-10-17T22:47:38.8760415+08:00",
+      "lastTime": "2026-11-13T17:55:26.1864819+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "NT AUTHORITY",
+        "param7": "SYSTEM",
+        "param4": "Windows.SecurityCenter.SecurityAppBroker",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "启动",
+        "param5": "不可用",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-18",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "不可用"
+      }
+    },
+    {
+      "id": 13,
+      "main": "卷影复制服务信息: 无法启动 CLSID 为 {4e14fba2-2e22-11d1-9964-00c04fbbb345} 、名称为 CEventSystem 的 COM 服务器。[0x8007045b, 系统正在关机。",
+      "reason": "",
+      "hint": "",
+      "count": 15,
+      "firstTime": "2026-10-13T00:52:16.3971773+08:00",
+      "lastTime": "2026-11-11T16:07:25.9081086+08:00",
+      "params": {
+        "provider": "VSS"
+      }
+    },
+    {
+      "id": 8193,
+      "main": "卷影复制服务错误: 调用程序 CoCreateInstance 时的意外错误。hr = 0x8007045b, 系统正在关机。",
+      "reason": "",
+      "hint": "",
+      "count": 14,
+      "firstTime": "2026-10-13T00:52:16.3977525+08:00",
+      "lastTime": "2026-11-11T16:07:25.9099184+08:00",
+      "params": {
+        "provider": "VSS"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "计算机-默认 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 12,
+      "firstTime": "2026-11-04T21:19:09.5414974+08:00",
+      "lastTime": "2026-11-04T21:19:09.5707584+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{C2F03A33-21F5-47FA-B4BB-156362A2F239}",
+        "param1": "计算机-默认",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{316CDED5-E4AE-4B15-9113-7055D84DCC97}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 Microsoft.AAD.BrokerPlugin_1000.19580.1000.2_neutral_neutral_cw5n1h2txyewy!Windows.Security.Authentication.Web.Core.BackgroundGetTokenTask.ClassId.WebAccountProvider 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 11,
+      "firstTime": "2026-10-20T01:09:27.8950029+08:00",
+      "lastTime": "2026-11-20T12:00:39.6349681+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "Microsoft.AAD.BrokerPlugin_1000.19580.1000.2_neutral_neutral_cw5n1h2txyewy!Windows.Security.Authentication.Web.Core.BackgroundGetTokenTask.ClassId.WebAccountProvider"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {08728914-3F57-4D52-9E31-49DAECA5A80A} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 10,
+      "firstTime": "2026-10-18T16:52:06.0505208+08:00",
+      "lastTime": "2026-11-19T01:10:31.7123615+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{08728914-3F57-4D52-9E31-49DAECA5A80A}"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {6D40BDAD-BF13-535B-BC3B-EEEE65B1D745} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 9,
+      "firstTime": "2026-10-25T12:31:01.3346980+08:00",
+      "lastTime": "2026-10-30T14:55:17.7226018+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{6D40BDAD-BF13-535B-BC3B-EEEE65B1D745}"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 NT AUTHORITY\\NETWORK SERVICE SID (S-1-5-20)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 9,
+      "firstTime": "2026-10-17T23:35:06.7165191+08:00",
+      "lastTime": "2026-11-13T21:55:13.0179280+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "NT AUTHORITY",
+        "param7": "NETWORK SERVICE",
+        "param4": "{9EA82395-E31B-41CA-8DF7-EC1CEE7194DF}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{2ED83BAA-B2FD-43B1-99BF-E6149C622692}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-20",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "不可用"
+      }
+    },
+    {
+      "id": 7038,
+      "main": "netprofm 服务无法使用当前配置的密码以 NT AUTHORITY\\NetworkService 身份登录，错误原因如下:",
+      "reason": "内存资源不足，无法处理此命令。",
+      "hint": "要确保服务配置正确，请使用 Microsoft 管理控制台(MMC)中的服务管理单元。",
+      "count": 8,
+      "firstTime": "09/19/2026 23:37:20",
+      "lastTime": "09/19/2026 23:39:10",
+      "params": {
+        "param1": "netprofm",
+        "param3": "%%8",
+        "param2": "NT AUTHORITY\\NetworkService"
+      }
+    },
+    {
+      "id": 36884,
+      "main": "从远程服务器上收到的证书不包含一个预期的名称。因此我们不能确定是否连接到了正确的服务器。预期的服务器名称为 fcount-api.webapp.163.com。TLS 连接请求失败。附带的数据包含服务器证书。",
+      "reason": "",
+      "hint": "",
+      "count": 8,
+      "firstTime": "2026-11-09T13:01:16.8889807+08:00",
+      "lastTime": "2026-11-09T13:01:17.1263350+08:00",
+      "params": {
+        "provider": "Schannel"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Current impersonated user SID:",
+      "reason": "未返回扩展错误上下文 (0x80004005 / E_FAIL)。",
+      "hint": "",
+      "count": 7,
+      "firstTime": "2026-10-04T21:04:18.5950225+08:00",
+      "lastTime": "2026-11-11T16:11:34.8389047+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Failed to GetUserSid. hr: 0x8001012d",
+      "reason": "",
+      "hint": "",
+      "count": 7,
+      "firstTime": "2026-10-04T21:04:18.5945133+08:00",
+      "lastTime": "2026-11-11T16:11:34.8384366+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Printer state: 4, printer state reasons: \"printer-state-reasons\":",
+      "reason": "\"other-warning (0x44)\"",
+      "hint": "",
+      "count": 7,
+      "firstTime": "2026-10-17T23:44:55.7766246+08:00",
+      "lastTime": "2026-11-07T23:02:30.7329252+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 7000,
+      "main": "由于下列错误，Network List Service 服务启动失败:",
+      "reason": "由于登录失败而无法启动服务。",
+      "hint": "",
+      "count": 7,
+      "firstTime": "09/19/2026 23:37:20",
+      "lastTime": "09/19/2026 23:39:10",
+      "params": {
+        "param1": "Network List Service",
+        "param2": "%%1069"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {A463FCB9-6B1C-4E0D-A80B-A2CA7999E25D} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 7,
+      "firstTime": "2026-10-18T16:52:05.9609512+08:00",
+      "lastTime": "2026-11-13T17:52:30.5789626+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{A463FCB9-6B1C-4E0D-A80B-A2CA7999E25D}"
+      }
+    },
+    {
+      "id": 41,
+      "main": "系统已在未先正常关机的情况下重新启动。如果系统停止响应、发生崩溃或意外断电，则可能会导致此错误。",
+      "reason": "",
+      "hint": "",
+      "count": 6,
+      "firstTime": "2026-10-17T22:45:18.7892960+08:00",
+      "lastTime": "2026-11-12T21:38:26.3766746+08:00",
+      "params": {
+        "LidState": "1",
+        "BugcheckParameter2": "0x0",
+        "CsEntryScenarioInstanceId": "26",
+        "BugcheckInfoFromEFI": "false",
+        "PowerButtonSuppressionState": "0",
+        "BugcheckParameter3": "0x0",
+        "LongPowerButtonPressDetected": "false",
+        "BugcheckParameter4": "0x0",
+        "WHEABootErrorCount": "0",
+        "BugcheckParameter1": "0x0",
+        "Checkpoint": "16",
+        "BootAppStatus": "0",
+        "BugcheckCode": "0",
+        "SleepInProgress": "0",
+        "InputSuppressionState": "0",
+        "CsEntryScenarioInstanceIdV2": "26",
+        "ConnectedStandbyInProgress": "false",
+        "CheckpointStatus": "0",
+        "provider": "Microsoft-Windows-Kernel-Power",
+        "LidReliability": "false",
+        "SystemSleepTransitionsToOn": "7",
+        "PowerButtonTimestamp": "0"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "ChatGPT 服务的启动类型从 自动启动 更改为 已禁用。",
+      "reason": "",
+      "hint": "",
+      "count": 5,
+      "firstTime": "09/20/2026 10:37:01",
+      "lastTime": "2026-11-07T21:28:40.9690654+08:00",
+      "params": {
+        "param1": "ChatGPT",
+        "param3": "已禁用",
+        "param2": "自动启动",
+        "param4": "CodexSandboxService.OpenAI.Codex"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Marking job (SpoolerJobId = 2) as completed",
+      "reason": "",
+      "hint": "",
+      "count": 4,
+      "firstTime": "2026-10-17T22:58:32.5984710+08:00",
+      "lastTime": "2026-11-07T22:30:48.5778668+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Printer state: 3, printer state reasons: \"printer-state-reasons\":",
+      "reason": "\"media-empty-report (0x44)\"",
+      "hint": "",
+      "count": 4,
+      "firstTime": "2026-10-17T23:47:06.7077662+08:00",
+      "lastTime": "2026-11-07T23:16:46.5003152+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 109,
+      "main": "内核电源管理器已启动关闭转换。",
+      "reason": "",
+      "hint": "",
+      "count": 4,
+      "firstTime": "2026-10-28T01:26:58.6252175+08:00",
+      "lastTime": "2026-11-13T17:52:45.3807759+08:00",
+      "params": {
+        "ShutdownActionType": "5",
+        "ShutdownReason": "5",
+        "ShutdownEventCode": "0",
+        "provider": "Microsoft-Windows-Kernel-Power"
+      }
+    },
+    {
+      "id": 7026,
+      "main": "以下引导启动或系统启动驱动程序未加载:",
+      "reason": "wesp",
+      "hint": "",
+      "count": 4,
+      "firstTime": "2026-11-11T16:08:15.6130484+08:00",
+      "lastTime": "2026-11-13T17:53:24.9981814+08:00",
+      "params": {
+        "provider": "Service Control Manager",
+        "param1": "\nwesp"
+      }
+    },
+    {
+      "id": 7038,
+      "main": "WerSvc 服务无法使用当前配置的密码以 NT AUTHORITY\\SYSTEM 身份登录，错误原因如下:",
+      "reason": "内存资源不足，无法处理此命令。",
+      "hint": "要确保服务配置正确，请使用 Microsoft 管理控制台(MMC)中的服务管理单元。",
+      "count": 4,
+      "firstTime": "09/24/2026 23:08:25",
+      "lastTime": "09/24/2026 23:09:45",
+      "params": {
+        "param1": "WerSvc",
+        "param3": "%%8",
+        "param2": "NT AUTHORITY\\SYSTEM"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {C53A4F16-787E-42A4-B304-29EFFB4BF597} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 4,
+      "firstTime": "2026-10-26T13:35:24.4145447+08:00",
+      "lastTime": "2026-10-26T13:41:29.6835600+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{C53A4F16-787E-42A4-B304-29EFFB4BF597}"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 Microsoft.Windows.ContentDeliveryManager_10.0.26100.1_neutral_neutral_cw5n1h2txyewy!App.AppX2dz2dz7bvszf1srfbwq1tqyrpq3nvxf6.mca 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 4,
+      "firstTime": "2026-10-28T13:59:53.2265182+08:00",
+      "lastTime": "2026-11-19T01:13:59.1227463+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "Microsoft.Windows.ContentDeliveryManager_10.0.26100.1_neutral_neutral_cw5n1h2txyewy!App.AppX2dz2dz7bvszf1srfbwq1tqyrpq3nvxf6.mca"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "计算机-默认 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 4,
+      "firstTime": "2026-10-17T16:43:26.8368119+08:00",
+      "lastTime": "2026-11-16T17:35:53.4339780+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{2EACA947-7F5F-4CFA-BA87-8F7FBEEFBE69}",
+        "param1": "计算机-默认",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "不可用",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "不可用"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： msedge.exe，版本： 155.0.4283.62，时间戳： 0x6ad15c37",
+      "reason": "出错模块名称： msedge.dll， 版本： 155.0.4283.62，时间戳： 0x6ad15c37",
+      "hint": "异常代码： 0x80000003",
+      "count": 3,
+      "firstTime": "2026-10-22T18:24:37.5948163+08:00",
+      "lastTime": "2026-10-24T01:01:52.1936433+08:00",
+      "params": {
+        "AppVersion": "155.0.4283.62",
+        "ProcessId": "0x37ec",
+        "AppPath": "<PATH_REDACTED> Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "PackageFullName": "",
+        "PackageRelativeAppId": "",
+        "ModuleTimeStamp": "6ad15c37",
+        "IntegratorReportId": "870cea42-8bcc-4c23-9aee-74b547654563",
+        "ExceptionCode": "80000003",
+        "FaultingOffset": "00000000040e8c05",
+        "ProcessCreationTime": "0x1dd631032badb8c",
+        "ModulePath": "<PATH_REDACTED> Files (x86)\\Microsoft\\Edge\\Application\\155.0.4283.62\\msedge.dll",
+        "AppName": "msedge.exe",
+        "AppTimeStamp": "6ad15c37",
+        "provider": "Application Error",
+        "ModuleVersion": "155.0.4283.62",
+        "ModuleName": "msedge.dll"
+      }
+    },
+    {
+      "id": 7000,
+      "main": "由于下列错误，Network List Service 服务启动失败:",
+      "reason": "页面文件太小，无法完成操作。",
+      "hint": "",
+      "count": 3,
+      "firstTime": "09/19/2026 23:37:09",
+      "lastTime": "09/19/2026 23:37:09",
+      "params": {
+        "param1": "Network List Service",
+        "param2": "%%1455"
+      }
+    },
+    {
+      "id": 7023,
+      "main": "Downloaded Maps Manager 服务因下列错误而停止:",
+      "reason": "不支持该请求。",
+      "hint": "",
+      "count": 3,
+      "firstTime": "2026-11-11T16:11:39.8324752+08:00",
+      "lastTime": "2026-11-13T17:55:25.5035323+08:00",
+      "params": {
+        "param1": "Downloaded Maps Manager",
+        "param2": "%%50",
+        "provider": "Service Control Manager"
+      }
+    },
+    {
+      "id": 7024,
+      "main": "Routing and Remote Access 服务由于下列服务特定错误而终止:",
+      "reason": "请求的名称有效，但是找不到请求的类型的数据。",
+      "hint": "",
+      "count": 3,
+      "firstTime": "09/18/2026 10:59:02",
+      "lastTime": "09/22/2026 13:36:09",
+      "params": {
+        "param1": "Routing and Remote Access",
+        "param2": "%%11004"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {338B40F9-9D68-4B53-A793-6B9AA0C5F63B} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 3,
+      "firstTime": "2026-10-31T15:48:39.2562640+08:00",
+      "lastTime": "2026-11-18T17:36:19.9129743+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{338B40F9-9D68-4B53-A793-6B9AA0C5F63B}"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Marking job (SpoolerJobId = 6) as completed",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "2026-10-17T23:48:02.9286105+08:00",
+      "lastTime": "2026-10-17T23:48:03.0365238+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Marking job (SpoolerJobId = 5) as completed",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "2026-10-17T23:31:58.9274266+08:00",
+      "lastTime": "2026-10-17T23:31:59.0454886+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Marking job (SpoolerJobId = 2) as canceled",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "2026-10-17T22:58:32.5978253+08:00",
+      "lastTime": "2026-11-07T22:30:48.4421096+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Marking job (SpoolerJobId = 3) as completed",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "2026-10-17T23:30:20.1030026+08:00",
+      "lastTime": "2026-10-17T23:30:20.2104718+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 7009,
+      "main": "等待 Windows Error Reporting Service 服务的连接超时(30000 毫秒)。",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "09/24/2026 23:08:59",
+      "lastTime": "09/24/2026 23:09:38",
+      "params": {
+        "param1": "30000",
+        "param2": "Windows Error Reporting Service"
+      }
+    },
+    {
+      "id": 7030,
+      "main": "AMD User Experience Program Data Uploader 服务标记为交互服务。但是系统配置成不允许交互服务。这项服务可能无法正常操作。",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "09/20/2026 10:09:26",
+      "lastTime": "2026-10-21T07:45:31.5047249+08:00",
+      "params": {
+        "param1": "AMD User Experience Program Data Uploader"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "AppX Deployment Service (AppXSVC) 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 120000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "09/19/2026 08:50:25",
+      "lastTime": "09/24/2026 15:35:22",
+      "params": {
+        "param1": "AppX Deployment Service (AppXSVC)",
+        "param3": "120000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "Connected User Experiences and Telemetry 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 30000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "09/19/2026 23:36:38",
+      "lastTime": "09/24/2026 23:09:00",
+      "params": {
+        "param1": "Connected User Experiences and Telemetry",
+        "param3": "30000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7034,
+      "main": "服务 OpenSSH SSH Server 意外停止。这发生了 1 次。",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "2026-11-11T16:08:48.2052621+08:00",
+      "lastTime": "2026-11-13T17:52:40.3475339+08:00",
+      "params": {
+        "param1": "OpenSSH SSH Server",
+        "param2": "1",
+        "provider": "Service Control Manager"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "OpenSSH SSH Server 服务的启动类型从 按需启动 更改为 自动启动。",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "2026-11-08T23:45:43.5764097+08:00",
+      "lastTime": "2026-11-09T13:19:59.5347798+08:00",
+      "params": {
+        "param1": "OpenSSH SSH Server",
+        "param3": "自动启动",
+        "param2": "按需启动",
+        "provider": "Service Control Manager",
+        "param4": "sshd"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {69B7FE84-6361-4423-B948-1D64820B1E96} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "2026-10-26T13:41:38.0515112+08:00",
+      "lastTime": "2026-11-18T17:38:17.3087562+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{69B7FE84-6361-4423-B948-1D64820B1E96}"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {F4DF18B4-A2CF-4B0A-8D62-954CD6AD2E33} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "2026-10-26T11:46:52.2398423+08:00",
+      "lastTime": "2026-10-26T11:48:52.2646344+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{F4DF18B4-A2CF-4B0A-8D62-954CD6AD2E33}"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {389510B7-9E58-40D7-98BF-60B911CB0EA9} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 2,
+      "firstTime": "2026-11-11T00:14:41.6510253+08:00",
+      "lastTime": "2026-11-11T00:14:41.7028322+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{389510B7-9E58-40D7-98BF-60B911CB0EA9}"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Marking job (SpoolerJobId = 10) as completed",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-17T23:48:43.8091886+08:00",
+      "lastTime": "2026-10-17T23:48:43.8091886+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Marking job (SpoolerJobId = 5) as canceled",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-17T23:31:58.9267501+08:00",
+      "lastTime": "2026-10-17T23:31:58.9267501+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Marking job (SpoolerJobId = 11) as completed",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-17T23:49:58.1068875+08:00",
+      "lastTime": "2026-10-17T23:49:58.1068875+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 1,
+      "main": "Marking job (SpoolerJobId = 12) as completed",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-17T23:52:57.6523287+08:00",
+      "lastTime": "2026-10-17T23:52:57.6523287+08:00",
+      "params": {
+        "provider": "Universal Print"
+      }
+    },
+    {
+      "id": 11,
+      "main": "驱动程序在 \\Device\\Harddisk1\\DR1 上检测到控制器错误。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-10T14:41:06.8692100+08:00",
+      "lastTime": "2026-11-10T14:41:06.8692100+08:00",
+      "params": {
+        "provider": "disk"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： DllHost.exe，版本： 10.0.26100.9549，时间戳： 0xdf4bb503",
+      "reason": "出错模块名称： atiadlxx.dll_unloaded， 版本： 32.0.31041.1004，时间戳： 0x6a7bbf68",
+      "hint": "异常代码： 0xc0000005",
+      "count": 1,
+      "firstTime": "2026-10-19T17:37:45.2350218+08:00",
+      "lastTime": "2026-10-19T17:37:45.2350218+08:00",
+      "params": {
+        "AppVersion": "10.0.26100.9549",
+        "ProcessId": "0x81bc",
+        "AppPath": "<PATH_REDACTED>",
+        "PackageFullName": "AdvancedMicroDevicesInc-RSXCM_22.10.0.0_x64__v2es6h43hjn86",
+        "PackageRelativeAppId": "AMDRadeonSoftwareDesktop",
+        "ModuleTimeStamp": "6a7bbf68",
+        "IntegratorReportId": "d71d8d39-11b3-4184-98f1-b95010f128d7",
+        "ExceptionCode": "c0000005",
+        "FaultingOffset": "0000000000085870",
+        "ProcessCreationTime": "0x1dd5fad7e4eb31f",
+        "ModulePath": "atiadlxx.dll",
+        "AppName": "DllHost.exe",
+        "AppTimeStamp": "df4bb503",
+        "provider": "Application Error",
+        "ModuleVersion": "32.0.31041.1004",
+        "ModuleName": "atiadlxx.dll_unloaded"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： ONENOTE.EXE，版本： 16.0.17932.21000，时间戳： 0x6aa90b8e",
+      "reason": "出错模块名称： omraut.dll， 版本： 0.0.0.0，时间戳： 0x64acfdfd",
+      "hint": "异常代码： 0xc0000005",
+      "count": 1,
+      "firstTime": "2026-10-03T21:04:05.8452637+08:00",
+      "lastTime": "2026-10-03T21:04:05.8452637+08:00",
+      "params": {
+        "AppVersion": "16.0.17932.21000",
+        "ProcessId": "0x8114",
+        "AppPath": "<PATH_REDACTED> Files\\Microsoft Office\\root\\Office16\\ONENOTE.EXE",
+        "PackageFullName": "",
+        "PackageRelativeAppId": "",
+        "ModuleTimeStamp": "64acfdfd",
+        "IntegratorReportId": "73f696bf-afe3-4b5b-a2eb-5f6a90883075",
+        "ExceptionCode": "c0000005",
+        "FaultingOffset": "00000000000c63c0",
+        "ProcessCreationTime": "0x1dd533719f461b1",
+        "ModulePath": "<PATH_REDACTED> Files\\Microsoft Office\\root\\Office16\\omraut.dll",
+        "AppName": "ONENOTE.EXE",
+        "AppTimeStamp": "6aa90b8e",
+        "provider": "Application Error",
+        "ModuleVersion": "0.0.0.0",
+        "ModuleName": "omraut.dll"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： Sunshine.exe，版本： 0.0.0.0，时间戳： 0x6ab69685",
+      "reason": "出错模块名称： KERNELBASE.dll， 版本： 10.0.26100.9444，时间戳： 0x28606b21",
+      "hint": "异常代码： 0x80000003",
+      "count": 1,
+      "firstTime": "2026-10-04T18:44:13.7068377+08:00",
+      "lastTime": "2026-10-04T18:44:13.7068377+08:00",
+      "params": {
+        "AppVersion": "0.0.0.0",
+        "ProcessId": "0x85f4",
+        "AppPath": "<PATH_REDACTED> Files\\Sunshine\\Sunshine.exe",
+        "PackageFullName": "",
+        "PackageRelativeAppId": "",
+        "ModuleTimeStamp": "28606b21",
+        "IntegratorReportId": "9113f442-dec1-413d-b35a-93364662f3ae",
+        "ExceptionCode": "80000003",
+        "FaultingOffset": "0000000000112bc2",
+        "ProcessCreationTime": "0x1dd53ed4442810b",
+        "ModulePath": "<PATH_REDACTED>",
+        "AppName": "Sunshine.exe",
+        "AppTimeStamp": "6ab69685",
+        "provider": "Application Error",
+        "ModuleVersion": "10.0.26100.9444",
+        "ModuleName": "KERNELBASE.dll"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： ApplicationFrameHost.exe，版本： 10.0.26100.9549，时间戳： 0x7a84afb5",
+      "reason": "出错模块名称： amdxx64.dll， 版本： 32.0.31041.1004，时间戳： 0x6a7a4868",
+      "hint": "异常代码： 0xc0000005",
+      "count": 1,
+      "firstTime": "2026-10-21T07:44:35.1564771+08:00",
+      "lastTime": "2026-10-21T07:44:35.1564771+08:00",
+      "params": {
+        "AppVersion": "10.0.26100.9549",
+        "ProcessId": "0x5fb8",
+        "AppPath": "<PATH_REDACTED>",
+        "PackageFullName": "",
+        "PackageRelativeAppId": "",
+        "ModuleTimeStamp": "6a7a4868",
+        "IntegratorReportId": "5bf0433d-17d0-4aaf-9d92-2a371897b347",
+        "ExceptionCode": "c0000005",
+        "FaultingOffset": "00000000000d0c82",
+        "ProcessCreationTime": "0x1dd60ec866e66e6",
+        "ModulePath": "<PATH_REDACTED>",
+        "AppName": "ApplicationFrameHost.exe",
+        "AppTimeStamp": "7a84afb5",
+        "provider": "Application Error",
+        "ModuleVersion": "32.0.31041.1004",
+        "ModuleName": "amdxx64.dll"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： reaper.exe，版本： 7.8.2.0，时间戳： 0x6ac2cab5",
+      "reason": "出错模块名称： Splice INSTRUMENT.vst3， 版本： 2.4.18.0，时间戳： 0x6aabb081",
+      "hint": "异常代码： 0xc0000409",
+      "count": 1,
+      "firstTime": "2026-10-06T16:31:58.0191580+08:00",
+      "lastTime": "2026-10-06T16:31:58.0191580+08:00",
+      "params": {
+        "AppVersion": "7.8.2.0",
+        "ProcessId": "0x2a30",
+        "AppPath": "<PATH_REDACTED> Files\\REAPER (x64)\\reaper.exe",
+        "PackageFullName": "",
+        "PackageRelativeAppId": "",
+        "ModuleTimeStamp": "6aabb081",
+        "IntegratorReportId": "5b5ddc15-f266-4114-a760-65b5798807c7",
+        "ExceptionCode": "c0000409",
+        "FaultingOffset": "0000000002160861",
+        "ProcessCreationTime": "0x1dd556ac4bf6026",
+        "ModulePath": "<PATH_REDACTED> Files\\Common Files\\VST3\\Splice\\Splice INSTRUMENT.vst3\\Contents\\x86_64-win\\Splice INSTRUMENT.vst3",
+        "AppName": "reaper.exe",
+        "AppTimeStamp": "6ac2cab5",
+        "provider": "Application Error",
+        "ModuleVersion": "2.4.18.0",
+        "ModuleName": "Splice INSTRUMENT.vst3"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： msedge.exe，版本： 155.0.4283.45，时间戳： 0x6ac6ddb1",
+      "reason": "出错模块名称： msedge.dll， 版本： 155.0.4283.45，时间戳： 0x6ac6ddb1",
+      "hint": "异常代码： 0x80000003",
+      "count": 1,
+      "firstTime": "2026-10-17T17:34:07.7131194+08:00",
+      "lastTime": "2026-10-17T17:34:07.7131194+08:00",
+      "params": {
+        "AppVersion": "155.0.4283.45",
+        "ProcessId": "0x9150",
+        "AppPath": "<PATH_REDACTED> Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "PackageFullName": "",
+        "PackageRelativeAppId": "",
+        "ModuleTimeStamp": "6ac6ddb1",
+        "IntegratorReportId": "8428f853-f98b-47d4-a8e6-0dafc5f9b61d",
+        "ExceptionCode": "80000003",
+        "FaultingOffset": "000000000b30119d",
+        "ProcessCreationTime": "0x1dd5e1aa81158b6",
+        "ModulePath": "<PATH_REDACTED> Files (x86)\\Microsoft\\Edge\\Application\\155.0.4283.45\\msedge.dll",
+        "AppName": "msedge.exe",
+        "AppTimeStamp": "6ac6ddb1",
+        "provider": "Application Error",
+        "ModuleVersion": "155.0.4283.45",
+        "ModuleName": "msedge.dll"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： WindowsHDRCalibration.exe，版本： 1.0.0.0，时间戳： 0x638a920f",
+      "reason": "出错模块名称： twinapi.appcore.dll， 版本： 10.0.26100.9549，时间戳： 0xe3d7e48e",
+      "hint": "异常代码： 0xc000027b",
+      "count": 1,
+      "firstTime": "2026-10-13T22:41:27.6609029+08:00",
+      "lastTime": "2026-10-13T22:41:27.6609029+08:00",
+      "params": {
+        "AppVersion": "1.0.0.0",
+        "ProcessId": "0x31dc",
+        "AppPath": "<PATH_REDACTED> Files\\WindowsApps\\MicrosoftCorporationII.WindowsHDRCalibration_1.0.152.0_x64__8wekyb3d8bbwe\\WindowsHDRCalibration.exe",
+        "PackageFullName": "MicrosoftCorporationII.WindowsHDRCalibration_1.0.152.0_x64__8wekyb3d8bbwe",
+        "PackageRelativeAppId": "App",
+        "ModuleTimeStamp": "e3d7e48e",
+        "IntegratorReportId": "942b0580-27b3-487f-869a-5f3b1c5786ec",
+        "ExceptionCode": "c000027b",
+        "FaultingOffset": "00000000000727e3",
+        "ProcessCreationTime": "0x1dd5b20ec11b0b7",
+        "ModulePath": "<PATH_REDACTED>",
+        "AppName": "WindowsHDRCalibration.exe",
+        "AppTimeStamp": "638a920f",
+        "provider": "Application Error",
+        "ModuleVersion": "10.0.26100.9549",
+        "ModuleName": "twinapi.appcore.dll"
+      }
+    },
+    {
+      "id": 1000,
+      "main": "出错应用程序名称： ctfmon.exe，版本： 10.0.26100.9818，时间戳： 0x7f79d644",
+      "reason": "出错模块名称： InputService.dll， 版本： 10.0.26100.9974，时间戳： 0xe7dcf01b",
+      "hint": "异常代码： 0x00000675",
+      "count": 1,
+      "firstTime": "2026-11-16T00:14:11.6219493+08:00",
+      "lastTime": "2026-11-16T00:14:11.6219493+08:00",
+      "params": {
+        "AppVersion": "10.0.26100.9818",
+        "ProcessId": "0x4250",
+        "AppPath": "<PATH_REDACTED>",
+        "PackageFullName": "",
+        "PackageRelativeAppId": "",
+        "ModuleTimeStamp": "e7dcf01b",
+        "IntegratorReportId": "d0488ef7-aa28-48b4-b1cf-5878a9a633f7",
+        "ExceptionCode": "00000675",
+        "FaultingOffset": "00000000000530c2",
+        "ProcessCreationTime": "0x1dd74a11729328b",
+        "ModulePath": "<PATH_REDACTED>",
+        "AppName": "ctfmon.exe",
+        "AppTimeStamp": "7f79d644",
+        "provider": "Application Error",
+        "ModuleVersion": "10.0.26100.9974",
+        "ModuleName": "InputService.dll"
+      }
+    },
+    {
+      "id": 1002,
+      "main": "程序LockApp.exe版本10.0.26100.9549停止与 Windows 交互并已关闭。若要查看有关此问题的详细信息是否可用，请查看安全性与维护控制面板中的问题历史记录。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-19T17:11:20.6029844+08:00",
+      "lastTime": "2026-10-19T17:11:20.6029844+08:00",
+      "params": {
+        "AppVersion": "10.0.26100.9549",
+        "AppName": "LockApp.exe",
+        "StartTime": "0x1dd5fa9bedb0be8",
+        "PackageRelativeAppId": "WindowsDefaultLockScreen",
+        "ProcessId": "0x2210",
+        "HangType": "Quiesce",
+        "provider": "Application Hang",
+        "ExeFileName": "<PATH_REDACTED>",
+        "ReportId": "7608985c-37e9-4074-a0c4-44c7fb3c2424",
+        "PackageFullName": "Microsoft.LockApp_10.0.26100.9549_neutral__cw5n1h2txyewy",
+        "TerminationTime": "4294967295"
+      }
+    },
+    {
+      "id": 1002,
+      "main": "程序LockApp.exe版本10.0.26100.9818停止与 Windows 交互并已关闭。若要查看有关此问题的详细信息是否可用，请查看安全性与维护控制面板中的问题历史记录。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-12T18:36:51.2034990+08:00",
+      "lastTime": "2026-11-12T18:36:51.2034990+08:00",
+      "params": {
+        "AppVersion": "10.0.26100.9818",
+        "AppName": "LockApp.exe",
+        "StartTime": "0x1dd72902ba0fb17",
+        "PackageRelativeAppId": "WindowsDefaultLockScreen",
+        "ProcessId": "0x2164",
+        "HangType": "Cross-process;Quiesce",
+        "provider": "Application Hang",
+        "ExeFileName": "<PATH_REDACTED>",
+        "ReportId": "32d2209a-df92-4f5d-a945-9f8ebacc8313",
+        "PackageFullName": "Microsoft.LockApp_10.0.26100.9818_neutral__cw5n1h2txyewy",
+        "TerminationTime": "4294967295"
+      }
+    },
+    {
+      "id": 1002,
+      "main": "程序SystemSettings.exe版本10.0.26100.9549停止与 Windows 交互并已关闭。若要查看有关此问题的详细信息是否可用，请查看安全性与维护控制面板中的问题历史记录。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-08T17:26:02.7458122+08:00",
+      "lastTime": "2026-10-08T17:26:02.7458122+08:00",
+      "params": {
+        "AppVersion": "10.0.26100.9549",
+        "AppName": "SystemSettings.exe",
+        "StartTime": "0x1dd5706e6a2187e",
+        "PackageRelativeAppId": "microsoft.windows.immersivecontrolpanel",
+        "ProcessId": "0x4a08",
+        "HangType": "Quiesce",
+        "provider": "Application Hang",
+        "ExeFileName": "<PATH_REDACTED>",
+        "ReportId": "da04e05e-22a2-4fd0-8b39-ddba5acc3dd4",
+        "PackageFullName": "windows.immersivecontrolpanel_10.0.8.1000_neutral_neutral_cw5n1h2txyewy",
+        "TerminationTime": "4294967295"
+      }
+    },
+    {
+      "id": 7000,
+      "main": "由于下列错误，连接设备平台服务 服务启动失败:",
+      "reason": "由于登录失败而无法启动服务。",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:13",
+      "lastTime": "09/19/2026 23:37:13",
+      "params": {
+        "param1": "连接设备平台服务",
+        "param2": "%%1069"
+      }
+    },
+    {
+      "id": 7000,
+      "main": "由于下列错误，连接设备平台用户服务_4d9f4c31 服务启动失败:",
+      "reason": "系统资源不足，无法完成请求的服务。",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:13",
+      "lastTime": "09/19/2026 23:37:13",
+      "params": {
+        "param1": "连接设备平台用户服务_4d9f4c31",
+        "param2": "%%1450"
+      }
+    },
+    {
+      "id": 7000,
+      "main": "由于下列错误，Windows 推送通知系统服务 服务启动失败:",
+      "reason": "页面文件太小，无法完成操作。",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:11",
+      "lastTime": "09/19/2026 23:37:11",
+      "params": {
+        "param1": "Windows 推送通知系统服务",
+        "param2": "%%1455"
+      }
+    },
+    {
+      "id": 7000,
+      "main": "由于下列错误，inpoutx64 服务启动失败:",
+      "reason": "系统资源不足，无法完成请求的服务。",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/18/2026 22:45:45",
+      "lastTime": "09/18/2026 22:45:45",
+      "params": {
+        "param1": "inpoutx64",
+        "param2": "%%1450"
+      }
+    },
+    {
+      "id": 7000,
+      "main": "由于下列错误，Connected User Experiences and Telemetry 服务启动失败:",
+      "reason": "服务没有及时响应启动或控制请求。",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/24/2026 23:09:55",
+      "lastTime": "09/24/2026 23:09:55",
+      "params": {
+        "param1": "Connected User Experiences and Telemetry",
+        "param2": "%%1053"
+      }
+    },
+    {
+      "id": 7000,
+      "main": "由于下列错误，Connected User Experiences and Telemetry 服务启动失败:",
+      "reason": "由于登录失败而无法启动服务。",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:08",
+      "lastTime": "09/19/2026 23:37:08",
+      "params": {
+        "param1": "Connected User Experiences and Telemetry",
+        "param2": "%%1069"
+      }
+    },
+    {
+      "id": 7001,
+      "main": "与 RemoteAccess 服务相依的 RasMan 服务因下列错误而无法启动:",
+      "reason": "服务已返回特定的服务错误代码。",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/20/2026 10:12:06",
+      "lastTime": "09/20/2026 10:12:06",
+      "params": {
+        "param1": "RemoteAccess",
+        "param3": "%%1066",
+        "param2": "RasMan"
+      }
+    },
+    {
+      "id": 7006,
+      "main": "由于下列错误，ScRegSetValueExW 调用无法运行 Start:",
+      "reason": "拒绝访问。",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/20/2026 10:20:46",
+      "lastTime": "09/20/2026 10:20:46",
+      "params": {
+        "param1": "ScRegSetValueExW",
+        "param3": "%%5",
+        "param2": "Start"
+      }
+    },
+    {
+      "id": 7009,
+      "main": "等待 Windows Push Notifications User Service_4d9f4c31 服务的连接超时(30000 毫秒)。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:11",
+      "lastTime": "09/19/2026 23:37:11",
+      "params": {
+        "param1": "30000",
+        "param2": "Windows Push Notifications User Service_4d9f4c31"
+      }
+    },
+    {
+      "id": 7009,
+      "main": "等待 Connected User Experiences and Telemetry 服务的连接超时(30000 毫秒)。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/24/2026 23:09:55",
+      "lastTime": "09/24/2026 23:09:55",
+      "params": {
+        "param1": "30000",
+        "param2": "Connected User Experiences and Telemetry"
+      }
+    },
+    {
+      "id": 7024,
+      "main": "RasMan 服务由于下列服务特定错误而终止:",
+      "reason": "由于超时时间已过，该操作返回。",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/20/2026 10:12:06",
+      "lastTime": "09/20/2026 10:12:06",
+      "params": {
+        "param1": "RasMan",
+        "param2": "%%2147943860"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "Windows Error Reporting Service 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 120000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:38:10",
+      "lastTime": "09/19/2026 23:38:10",
+      "params": {
+        "param1": "Windows Error Reporting Service",
+        "param3": "120000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "Secure Socket Tunneling Protocol Service 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 120000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/20/2026 10:12:06",
+      "lastTime": "09/20/2026 10:12:06",
+      "params": {
+        "param1": "Secure Socket Tunneling Protocol Service",
+        "param3": "120000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "Windows 推送通知系统服务 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 1000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:10",
+      "lastTime": "09/19/2026 23:37:10",
+      "params": {
+        "param1": "Windows 推送通知系统服务",
+        "param3": "1000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "Windows Push Notifications User Service_4d9f4c31 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 1000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:10",
+      "lastTime": "09/19/2026 23:37:10",
+      "params": {
+        "param1": "Windows Push Notifications User Service_4d9f4c31",
+        "param3": "1000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "Network List Service 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 1000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:09",
+      "lastTime": "09/19/2026 23:37:09",
+      "params": {
+        "param1": "Network List Service",
+        "param3": "1000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "主机网络服务 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 120000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:15",
+      "lastTime": "09/19/2026 23:37:15",
+      "params": {
+        "param1": "主机网络服务",
+        "param3": "120000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "连接设备平台用户服务_4d9f4c31 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 3000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:10",
+      "lastTime": "09/19/2026 23:37:10",
+      "params": {
+        "param1": "连接设备平台用户服务_4d9f4c31",
+        "param3": "3000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "Network List Service 服务意外地终止，这种情况已经出现了 2 次。以下的修正操作将在 10000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:10",
+      "lastTime": "09/19/2026 23:37:10",
+      "params": {
+        "param1": "Network List Service",
+        "param3": "10000",
+        "param2": "2",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "连接设备平台服务 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 3000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:10",
+      "lastTime": "09/19/2026 23:37:10",
+      "params": {
+        "param1": "连接设备平台服务",
+        "param3": "3000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7031,
+      "main": "Universal Device Client Service 服务意外地终止，这种情况已经出现了 1 次。以下的修正操作将在 60000 毫秒内运行: 重新启动服务。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:09",
+      "lastTime": "09/19/2026 23:37:09",
+      "params": {
+        "param1": "Universal Device Client Service",
+        "param3": "60000",
+        "param2": "1",
+        "param5": "重新启动服务",
+        "param4": "1"
+      }
+    },
+    {
+      "id": 7034,
+      "main": "服务 Network Setup Service 意外停止。这发生了 1 次。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/24/2026 23:08:59",
+      "lastTime": "09/24/2026 23:08:59",
+      "params": {
+        "param1": "Network Setup Service",
+        "param2": "1"
+      }
+    },
+    {
+      "id": 7034,
+      "main": "服务 WSL Service 意外停止。这发生了 1 次。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:15",
+      "lastTime": "09/19/2026 23:37:15",
+      "params": {
+        "param1": "WSL Service",
+        "param2": "1"
+      }
+    },
+    {
+      "id": 7034,
+      "main": "服务 AMD PMF Service 意外停止。这发生了 1 次。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/20/2026 10:07:23",
+      "lastTime": "09/20/2026 10:07:23",
+      "params": {
+        "param1": "AMD PMF Service",
+        "param2": "1"
+      }
+    },
+    {
+      "id": 7034,
+      "main": "服务 AMD User Experience Program Data Uploader 意外停止。这发生了 1 次。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-21T07:44:12.1195832+08:00",
+      "lastTime": "2026-10-21T07:44:12.1195832+08:00",
+      "params": {
+        "param1": "AMD User Experience Program Data Uploader",
+        "param2": "1",
+        "provider": "Service Control Manager"
+      }
+    },
+    {
+      "id": 7034,
+      "main": "服务 ChatGPT 意外停止。这发生了 1 次。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-06T10:41:25.3940535+08:00",
+      "lastTime": "2026-11-06T10:41:25.3940535+08:00",
+      "params": {
+        "param1": "ChatGPT",
+        "param2": "1",
+        "provider": "Service Control Manager"
+      }
+    },
+    {
+      "id": 7038,
+      "main": "CDPSvc 服务无法使用当前配置的密码以 NT AUTHORITY\\LocalService 身份登录，错误原因如下:",
+      "reason": "内存资源不足，无法处理此命令。",
+      "hint": "要确保服务配置正确，请使用 Microsoft 管理控制台(MMC)中的服务管理单元。",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:13",
+      "lastTime": "09/19/2026 23:37:13",
+      "params": {
+        "param1": "CDPSvc",
+        "param3": "%%8",
+        "param2": "NT AUTHORITY\\LocalService"
+      }
+    },
+    {
+      "id": 7038,
+      "main": "DiagTrack 服务无法使用当前配置的密码以 NT AUTHORITY\\SYSTEM 身份登录，错误原因如下:",
+      "reason": "内存资源不足，无法处理此命令。",
+      "hint": "要确保服务配置正确，请使用 Microsoft 管理控制台(MMC)中的服务管理单元。",
+      "count": 1,
+      "firstTime": "09/19/2026 23:37:08",
+      "lastTime": "09/19/2026 23:37:08",
+      "params": {
+        "param1": "DiagTrack",
+        "param3": "%%8",
+        "param2": "NT AUTHORITY\\SYSTEM"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "AMD Sensor Fusion Hub 服务的启动类型从 系统启动 更改为 按需启动。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/20/2026 10:07:18",
+      "lastTime": "09/20/2026 10:07:18",
+      "params": {
+        "param1": "AMD Sensor Fusion Hub",
+        "param3": "按需启动",
+        "param2": "系统启动",
+        "param4": "amdsfhkmdf"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Microsoft Defender 防病毒服务 服务的启动类型从 自动启动 更改为 按需启动。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-11T16:15:10.1189555+08:00",
+      "lastTime": "2026-11-11T16:15:10.1189555+08:00",
+      "params": {
+        "param1": "Microsoft Defender 防病毒服务",
+        "param3": "按需启动",
+        "param2": "自动启动",
+        "provider": "Service Control Manager",
+        "param4": "WinDefend"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Microsoft Defender 防病毒服务 服务的启动类型从 按需启动 更改为 自动启动。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-11T16:12:44.0093190+08:00",
+      "lastTime": "2026-11-11T16:12:44.0093190+08:00",
+      "params": {
+        "param1": "Microsoft Defender 防病毒服务",
+        "param3": "自动启动",
+        "param2": "按需启动",
+        "provider": "Service Control Manager",
+        "param4": "WinDefend"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "gvinputmf Service 服务的启动类型从 按需启动 更改为 已禁用。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-26T13:00:06.0050293+08:00",
+      "lastTime": "2026-10-26T13:00:06.0050293+08:00",
+      "params": {
+        "param1": "gvinputmf Service",
+        "param3": "已禁用",
+        "param2": "按需启动",
+        "provider": "Service Control Manager",
+        "param4": "gvinputmf"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Microsoft Defender 防病毒启动驱动程序 服务的启动类型从 按需启动 更改为 引导启动。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-11T16:12:44.0558405+08:00",
+      "lastTime": "2026-11-11T16:12:44.0558405+08:00",
+      "params": {
+        "param1": "Microsoft Defender 防病毒启动驱动程序",
+        "param3": "引导启动",
+        "param2": "按需启动",
+        "provider": "Service Control Manager",
+        "param4": "WdBoot"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "gvinput Service 服务的启动类型从 按需启动 更改为 已禁用。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-26T13:00:06.1169774+08:00",
+      "lastTime": "2026-10-26T13:00:06.1169774+08:00",
+      "params": {
+        "param1": "gvinput Service",
+        "param3": "已禁用",
+        "param2": "按需启动",
+        "provider": "Service Control Manager",
+        "param4": "gvinput"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Microsoft Defender 防病毒 Mini-Filter 驱动程序 服务的启动类型从 引导启动 更改为 按需启动。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-11T16:15:13.4141055+08:00",
+      "lastTime": "2026-11-11T16:15:13.4141055+08:00",
+      "params": {
+        "param1": "Microsoft Defender 防病毒 Mini-Filter 驱动程序",
+        "param3": "按需启动",
+        "param2": "引导启动",
+        "provider": "Service Control Manager",
+        "param4": "WdFilter"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Microsoft Defender 防病毒启动驱动程序 服务的启动类型从 引导启动 更改为 按需启动。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-11T16:15:13.2172857+08:00",
+      "lastTime": "2026-11-11T16:15:13.2172857+08:00",
+      "params": {
+        "param1": "Microsoft Defender 防病毒启动驱动程序",
+        "param3": "按需启动",
+        "param2": "引导启动",
+        "provider": "Service Control Manager",
+        "param4": "WdBoot"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Microsoft Defender Core 服务 服务的启动类型从 按需启动 更改为 自动启动。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-11T16:12:41.9156107+08:00",
+      "lastTime": "2026-11-11T16:12:41.9156107+08:00",
+      "params": {
+        "param1": "Microsoft Defender Core 服务",
+        "param3": "自动启动",
+        "param2": "按需启动",
+        "provider": "Service Control Manager",
+        "param4": "MDCoreSvc"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Microsoft Defender Core 服务 服务的启动类型从 自动启动 更改为 按需启动。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-11T16:15:10.3442458+08:00",
+      "lastTime": "2026-11-11T16:15:10.3442458+08:00",
+      "params": {
+        "param1": "Microsoft Defender Core 服务",
+        "param3": "按需启动",
+        "param2": "自动启动",
+        "provider": "Service Control Manager",
+        "param4": "MDCoreSvc"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "amduw23g-196536-4782a61a 服务的启动类型从 按需启动 更改为 已禁用。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "09/20/2026 23:47:18",
+      "lastTime": "09/20/2026 23:47:18",
+      "params": {
+        "param1": "amduw23g-196536-4782a61a",
+        "param3": "已禁用",
+        "param2": "按需启动",
+        "param4": "amduw23g-196536-4782a61a"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "amduw23g-203304-e29338d6 服务的启动类型从 按需启动 更改为 已禁用。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-21T14:45:52.1076010+08:00",
+      "lastTime": "2026-10-21T14:45:52.1076010+08:00",
+      "params": {
+        "param1": "amduw23g-203304-e29338d6",
+        "param3": "已禁用",
+        "param2": "按需启动",
+        "provider": "Service Control Manager",
+        "param4": "amduw23g-203304-e29338d6"
+      }
+    },
+    {
+      "id": 7040,
+      "main": "Microsoft Defender 防病毒 Mini-Filter 驱动程序 服务的启动类型从 按需启动 更改为 引导启动。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-11T16:12:44.0558405+08:00",
+      "lastTime": "2026-11-11T16:12:44.0558405+08:00",
+      "params": {
+        "param1": "Microsoft Defender 防病毒 Mini-Filter 驱动程序",
+        "param3": "引导启动",
+        "param2": "按需启动",
+        "provider": "Service Control Manager",
+        "param4": "WdFilter"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 Microsoft.YourPhone_1.26092.119.0_x64__8wekyb3d8bbwe!App.AppXn958k7nsj8mxxmsepqdam8xk948t30sc.mca 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-19T01:03:56.1259534+08:00",
+      "lastTime": "2026-11-19T01:03:56.1259534+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "Microsoft.YourPhone_1.26092.119.0_x64__8wekyb3d8bbwe!App.AppXn958k7nsj8mxxmsepqdam8xk948t30sc.mca"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe!App.AppXn958k7nsj8mxxmsepqdam8xk948t30sc.mca 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-26T11:10:51.2192011+08:00",
+      "lastTime": "2026-10-26T11:10:51.2192011+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe!App.AppXn958k7nsj8mxxmsepqdam8xk948t30sc.mca"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 MicrosoftWindows.Client.CBS_1000.26100.372.0_x64__cw5n1h2txyewy!Global.DesktopSpotlight.AppXmakp9w4re9tj70pp8mcdrt273xajen0x.mca 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-26T10:16:51.2391240+08:00",
+      "lastTime": "2026-10-26T10:16:51.2391240+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "MicrosoftWindows.Client.CBS_1000.26100.372.0_x64__cw5n1h2txyewy!Global.DesktopSpotlight.AppXmakp9w4re9tj70pp8mcdrt273xajen0x.mca"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {2B9C59C3-98F1-45C8-B87B-12AE3C7927E8} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-17T21:50:01.5026136+08:00",
+      "lastTime": "2026-10-17T21:50:01.5026136+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{2B9C59C3-98F1-45C8-B87B-12AE3C7927E8}"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 Microsoft.WindowsStore_22609.1401.5.0_x64__8wekyb3d8bbwe!App.AppXbes12ecwhvvewxbmkmnasc9amnxfsx1c.mca 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-21T20:55:22.3441792+08:00",
+      "lastTime": "2026-10-21T20:55:22.3441792+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "Microsoft.WindowsStore_22609.1401.5.0_x64__8wekyb3d8bbwe!App.AppXbes12ecwhvvewxbmkmnasc9amnxfsx1c.mca"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 {8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19} 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-17T22:48:21.8951466+08:00",
+      "lastTime": "2026-10-17T22:48:21.8951466+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "{8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19}"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 Microsoft.WindowsStore_22609.1401.6.0_x64__8wekyb3d8bbwe!App.AppXbes12ecwhvvewxbmkmnasc9amnxfsx1c.mca 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-26T10:42:51.2128040+08:00",
+      "lastTime": "2026-10-26T10:42:51.2128040+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "Microsoft.WindowsStore_22609.1401.6.0_x64__8wekyb3d8bbwe!App.AppXbes12ecwhvvewxbmkmnasc9amnxfsx1c.mca"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 Microsoft.StorePurchaseApp_22609.1401.1.0_x64__8wekyb3d8bbwe!App.AppXh68f74x901gdx01kwdh3szc5yp7bnmah.mca 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-19T01:03:56.1259534+08:00",
+      "lastTime": "2026-11-19T01:03:56.1259534+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "Microsoft.StorePurchaseApp_22609.1401.1.0_x64__8wekyb3d8bbwe!App.AppXh68f74x901gdx01kwdh3szc5yp7bnmah.mca"
+      }
+    },
+    {
+      "id": 10010,
+      "main": "服务器 MicrosoftWindows.Client.CBS_1000.26100.372.0_x64__cw5n1h2txyewy!Global.RulesEngine.AppXg6p1s9373bk1gyjynwzsms4dqcb1sqz1.mca 没有在要求的超时时间内向 DCOM 注册。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-21T20:52:35.3407155+08:00",
+      "lastTime": "2026-10-21T20:52:35.3407155+08:00",
+      "params": {
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param1": "MicrosoftWindows.Client.CBS_1000.26100.372.0_x64__cw5n1h2txyewy!Global.RulesEngine.AppXg6p1s9373bk1gyjynwzsms4dqcb1sqz1.mca"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-08T21:02:10.4971677+08:00",
+      "lastTime": "2026-11-08T21:02:10.4971677+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-10T14:06:03.9444414+08:00",
+      "lastTime": "2026-11-10T14:06:03.9444414+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T20:14:27.4336983+08:00",
+      "lastTime": "2026-11-04T20:14:27.4336983+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T18:12:44.5889117+08:00",
+      "lastTime": "2026-11-04T18:12:44.5889117+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-16T16:48:31.5907755+08:00",
+      "lastTime": "2026-11-16T16:48:31.5907755+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-10T16:35:44.8662730+08:00",
+      "lastTime": "2026-11-10T16:35:44.8662730+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T19:29:54.3098362+08:00",
+      "lastTime": "2026-11-04T19:29:54.3098362+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-28T09:20:05.6000852+08:00",
+      "lastTime": "2026-10-28T09:20:05.6000852+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-05T19:22:23.3906423+08:00",
+      "lastTime": "2026-11-05T19:22:23.3906423+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-08T18:35:13.6652217+08:00",
+      "lastTime": "2026-11-08T18:35:13.6652217+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T18:10:32.7285462+08:00",
+      "lastTime": "2026-11-04T18:10:32.7285462+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-28T12:56:19.6613641+08:00",
+      "lastTime": "2026-10-28T12:56:19.6613641+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-05T20:40:51.1740336+08:00",
+      "lastTime": "2026-11-05T20:40:51.1740336+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T22:00:41.9451819+08:00",
+      "lastTime": "2026-11-04T22:00:41.9451819+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-28T01:26:08.5328413+08:00",
+      "lastTime": "2026-10-28T01:26:08.5328413+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-31T19:45:10.1940913+08:00",
+      "lastTime": "2026-10-31T19:45:10.1940913+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-28T01:20:26.4852979+08:00",
+      "lastTime": "2026-10-28T01:20:26.4852979+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T20:11:48.9613363+08:00",
+      "lastTime": "2026-11-04T20:11:48.9613363+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T19:49:00.1980702+08:00",
+      "lastTime": "2026-11-04T19:49:00.1980702+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-10T16:35:55.0139372+08:00",
+      "lastTime": "2026-11-10T16:35:55.0139372+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-05T22:45:54.5491695+08:00",
+      "lastTime": "2026-11-05T22:45:54.5491695+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-17T16:24:17.0154482+08:00",
+      "lastTime": "2026-11-17T16:24:17.0154482+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T19:03:31.0098682+08:00",
+      "lastTime": "2026-11-04T19:03:31.0098682+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-28T01:19:40.4071755+08:00",
+      "lastTime": "2026-10-28T01:19:40.4071755+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-06T09:44:57.6028331+08:00",
+      "lastTime": "2026-11-06T09:44:57.6028331+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-10T16:35:37.5226738+08:00",
+      "lastTime": "2026-11-10T16:35:37.5226738+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T19:47:52.5631102+08:00",
+      "lastTime": "2026-11-04T19:47:52.5631102+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-05T20:39:10.5944572+08:00",
+      "lastTime": "2026-11-05T20:39:10.5944572+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-04T21:19:15.4654801+08:00",
+      "lastTime": "2026-11-04T21:19:15.4654801+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-10T16:48:21.6531691+08:00",
+      "lastTime": "2026-11-10T16:48:21.6531691+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-05T22:50:02.6628575+08:00",
+      "lastTime": "2026-11-05T22:50:02.6628575+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-10-28T08:28:35.3338591+08:00",
+      "lastTime": "2026-10-28T08:28:35.3338591+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-05T20:41:25.0787512+08:00",
+      "lastTime": "2026-11-05T20:41:25.0787512+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-08T21:02:52.6006730+08:00",
+      "lastTime": "2026-11-08T21:02:52.6006730+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-05T20:23:29.6493301+08:00",
+      "lastTime": "2026-11-05T20:23:29.6493301+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-05T20:41:12.1527565+08:00",
+      "lastTime": "2026-11-05T20:41:12.1527565+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 10016,
+      "main": "应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (S-1-15-2-0-0-0-0-0-0-0)中运行的地址 LocalHost (使用 LRPC) 中的用户 WORKSTATION-01\\LOCAL_USER SID (S-1-5-21-0000000000-0000000000-0000000000-1001)授予针对 CLSID 为",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-16T16:48:38.3517291+08:00",
+      "lastTime": "2026-11-16T16:48:38.3517291+08:00",
+      "params": {
+        "param2": "本地",
+        "param6": "WORKSTATION-01",
+        "param7": "LOCAL_USER",
+        "param4": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "param1": "应用程序-特定",
+        "param10": "不可用",
+        "param3": "激活",
+        "param5": "{8BC3F05E-D86B-11D0-A075-00C04FB68820}",
+        "provider": "Microsoft-Windows-DistributedCOM",
+        "param8": "S-1-5-21-0000000000-0000000000-0000000000-1001",
+        "param9": "LocalHost (使用 LRPC)",
+        "param11": "S-1-15-2-0-0-0-0-0-0-0"
+      }
+    },
+    {
+      "id": 36884,
+      "main": "从远程服务器上收到的证书不包含一个预期的名称。因此我们不能确定是否连接到了正确的服务器。预期的服务器名称为 api.nrd.nie.163.com。TLS 连接请求失败。附带的数据包含服务器证书。",
+      "reason": "",
+      "hint": "",
+      "count": 1,
+      "firstTime": "2026-11-20T13:38:02.4129833+08:00",
+      "lastTime": "2026-11-20T13:38:02.4129833+08:00",
+      "params": {
+        "provider": "Schannel"
+      }
+    }
+  ]
+}

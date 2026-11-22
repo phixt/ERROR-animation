@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging archives
+*.zip
+
+# Generated heavy audio/video & runtime logs in out/
+out/*.mp4
+out/*.wav
+out/*.jsonl
+out/audio/
+out/ffmpeg.log
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
